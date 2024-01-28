@@ -1,0 +1,103 @@
+/************* Header och nav *********/
+.header-container {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+}
+
+.nav-container {
+  display: flex;
+  padding: 15px;
+}
+
+/************* index.html Kurser *********/
+#courses {
+  height: auto;
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: 20% 20% 20%;
+  grid-template-rows: 30% 30% 30%;
+  column-gap: 100px;
+  row-gap: 50px;
+  justify-content: center;
+  max-width: 100%;
+}
+
+#courses > div {
+  height: 500px;
+  width: 400px;
+  border: 3px solid lightblue;
+  overflow: hidden;
+  position: relative;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+}
+
+/************* courseSignUp och Log-in *********/
+.page-title {
+  display: flex;
+  justify-content: center;
+}
+.form-control input,
+textarea {
+  font-size: 1rem;
+  padding: 1rem;
+  border: solid 1px #ddd;
+}
+.form-control button {
+  width: 10rem;
+  height: 40px;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+  display: grid;
+  justify-content: center;
+}
+
+#course-container {
+  justify-content: center;
+  display: flex;
+  padding: 1rem;
+}
+
+/************* Administratör *********/
+
+#admin-container {
+  position: absolute;
+}
+
+#student-container {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+#student-container > div {
+  display: block;
+  padding: 5px;
+}
+
+.admin-form-control input,
+textarea {
+  font-size: 1rem;
+  padding: 1rem;
+  border: solid 1px #ddd;
+  max-width: 300px;
+}
+.admin-form-control button {
+  width: 10rem;
+  height: 40px;
+}
+
+.admin-form-control {
+  margin-bottom: 1rem;
+  display: grid;
+}

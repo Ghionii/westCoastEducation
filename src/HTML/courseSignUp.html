@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course sign up</title>
+    <link href="/src/css/style.css" rel="stylesheet" />
+    <script src="/src/newStudent.js" defer type="module"></script>
+  </head>
+  <body>
+    <header class="header-container">
+      <h1>West Coast Education</h1>
+      <nav class="nav-container">
+        <ul>
+          <a href="/src/HTML/adminSignin.html">Admin</a>
+        </ul>
+        <ul>
+          <a href="/src/HTML/index.html">Kurser</a>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="page-title">Kurs bokning och Registrering</h1>
+      <form id="logInForm">
+
+          <div id="course-container">
+          <label for="courseNumber">Välj en kurs:</label>
+          <select name="courseNumber" id="courseNumber"></select>
+          </div>
+
+          <div class="form-control">
+          <label for="customerName">Namn</label>
+          <input
+            type="text"
+            name="customerName"
+            id="customerName"
+            placeholder="För och efternamn" />
+        </div>
+        <div class="form-control">
+          <label for="billingAdress">Faktura Adress</label>
+          <input
+            type="text"
+            name="billingAdress"
+            id="billingAdress"
+            placeholder="Faktureringsadress" />
+        </div>
+        <div class="form-control">
+            <label for="phoneNumber">Telefonnummer</label>
+            <input
+              type="text"
+              name="phoneNumber"
+              id="phoneNumber"
+              placeholder="Telefonnummer" />
+          </div>
+          <div class="form-control">
+            <label for="studyPreference">Läge</label>
+            <input
+              type="text"
+              name="studyPreference"
+              id="studyPreference"
+              placeholder="Distans eller klassrum" />
+          </div>
+        <div class="form-control">
+          <label for="email">E-post adress</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="E-post" />
+        </div>
+        <div class="form-control">
+            <label for="password">Lösenord</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Lösenord" />
+          </div>
+        <div class="form-control">
+          <button
+            type="submit"
+            class="btn">
+            Boka och Registrera
+          </button>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/src/admin.js" defer type="module"></script>
+    <title>Administration</title>
+    <link href="/src/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header-container">
+      <h1>West Coast Education</h1>
+      <nav class="nav-container">
+        <ul>
+          <a href="/src/HTML/index.html">Kurser</a>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Administration</h1>
+    <div id="admin-container">
+    <h2 class="admin-page-title">Lägg till en ny kurs</h2>
+      <form id="admin-control">
+        <div class="admin-form-control">
+            <label for="id">Kurs id</label>
+            <input
+              type="text"
+              name="id"
+              id="id"
+              placeholder="kurs id" />
+          </div>
+        <div class="admin-form-control">
+          <label for="title">Kursnamn</label>
+          <input
+            type="text"
+            name="title"
+            id="title"
+            placeholder="Namn på kursen" />
+        </div>
+        <div class="admin-form-control">
+          <label for="courseNumber">Kursnummer</label>
+          <input
+            type="text"
+            name="courseNumber"
+            id="courseNumber"
+            placeholder="KursNummer" />
+        </div>
+        <div class="admin-form-control">
+            <label for="time">Antal dagar</label>
+            <input
+              type="text"
+              name="time"
+              id="time"
+              placeholder="Antal + dagar" />
+          </div>
+          <div class="admin-form-control">
+            <label for="location">Läge</label>
+            <input
+              type="text"
+              name="location"
+              id="location"
+              placeholder="Distans eller Klassrum" />
+          </div>
+          <div class="admin-form-control">
+            <label for="startDate">Kursstart</label>
+            <input
+              type="text"   
+              name="startDate"
+              id="startDate"
+              placeholder="kurs start (datum)" />
+          </div>
+        <div class="admin-form-control">
+          <button
+            type="submit"
+            class="btn">
+            Lägg till
+          </button>
+        </div>
+    </div>
+    <div id="allStudents">
+        <h2>Alla studenter</h2>
+        <div id="student-container"></div>
+    </div>
+  </body>
+</html>

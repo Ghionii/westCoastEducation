@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/src/adminSignIn.js" defer type="module"></script>
+    <title>Log in</title>
+    <link href="/src/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header-container">
+      <h1>West Coast Education</h1>
+      <nav class="nav-container">
+        <ul>
+          <a href="/src/HTML/index.html">Kurser</a>
+        </ul>
+        
+      </nav>
+    </header>
+    <h1 class="page-title">Administratör Logga in</h1>
+      <form id="logInForm">
+        <div class="form-control">
+          <label for="email">E-post</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="E-post" />
+        </div>
+        <div class="form-control">
+          <label for="password">Lösenord</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Lösenord" />
+        </div>
+        <div class="form-control">
+          <button
+            type="submit"
+            class="btn">
+            Logga in
+          </button>
+  </body>
+</html>

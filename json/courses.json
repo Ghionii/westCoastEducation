@@ -1,0 +1,145 @@
+{
+  "courses": [
+    {
+      "courseNumber": "1",
+      "id": "1",
+      "title": "Introduktion till datavetenskap",
+      "time": "30 dagar",
+      "location": "På plats och distans",
+      "startDate": "2024-09-01",
+      "image": "/src/assets/datascience.jpg"
+    },
+    {
+      "courseNumber": "2",
+      "id": "2",
+      "title": "Finansiell redovisning",
+      "time": "30 dagar",
+      "location": "På plats och distans",
+      "startDate": "2024-09-01",
+      "image": "/src/assets/finance.jpg"
+    },
+    {
+      "courseNumber": "3",
+      "id": "3",
+      "title": "Fotografiets grunder",
+      "time": "30 dagar",
+      "location": "På plats och distans",
+      "startDate": "2024-09-01",
+      "image": "/src/assets/photogr.jpg"
+    },
+    {
+      "courseNumber": "4",
+      "id": "4",
+      "title": "Introduktion till psykologi",
+      "time": "30 dagar",
+      "location": "På plats och distans",
+      "startDate": "2024-09-01",
+      "image": "/src/assets/psycholgy.jpg"
+    },
+    {
+      "courseNumber": "5",
+      "id": "5",
+      "title": "Globala miljöfrågor",
+      "time": "30 dagar",
+      "location": "På plats och distans",
+      "startDate": "2024-09-01",
+      "image": "/src/assets/miljö.jpg"
+    },
+    {
+      "courseNumber": "6",
+      "id": "6",
+      "title": "Strategier för digital marknadsföring",
+      "time": "30 dagar",
+      "location": "På plats och distans",
+      "startDate": "2024-09-01",
+      "image": "/src/assets/digital.jpg"
+    },
+    {
+      "courseNumber": "7",
+      "id": "7",
+      "title": "Introduktion till robotik",
+      "time": "30 dagar",
+      "location": "På plats och distans",
+      "startDate": "2024-09-01",
+      "image": "/src/assets/robotics.jpg"
+    },
+    {
+      "id": "8",
+      "courseNumber": "8",
+      "title": "Javascript",
+      "time": "30 dagar",
+      "location": "På plats och distans",
+      "startDate": "2024-09-01",
+      "image": "/src/assets/codephoto.jpg"
+    },
+    {
+      "id": "9",
+      "courseNumber": "9",
+      "title": "Entreprenörskap och innovation",
+      "time": "30 dagar",
+      "location": "På plats och distans",
+      "startDate": "2024-09-01",
+      "image": "/src/assets/Entreprenur.jpg"
+    }
+  ],
+  "customer": [
+    {
+      "id": "1",
+      "courseNumber": "2",
+      "customerName": "William Jansson",
+      "billingAdress": "Vemdalsgatan 51",
+      "email": "test@test.com",
+      "phoneNumber": "0701324131",
+      "password": "password"
+    },
+    {
+      "id": "4f69",
+      "courseNumber": "4",
+      "customerName": "Test Testsson",
+      "billingAdress": "Testvägen 50",
+      "phoneNumber": "0701231251",
+      "email": "Test@test123.com",
+      "password": "test"
+    },
+    {
+      "id": "d3b3",
+      "courseNumber": "1",
+      "customerName": "Mayo",
+      "billingAdress": "Gbg",
+      "phoneNumber": "123123123",
+      "studyPreference": "Distans",
+      "email": "mayo@gmail.com",
+      "password": "123123"
+    },
+    {
+      "id": "c5f5",
+      "courseNumber": "5",
+      "customerName": "Jonte",
+      "billingAdress": "Gbg 02",
+      "phoneNumber": "123123123",
+      "studyPreference": "klassrum",
+      "email": "jonte@gmail.com",
+      "password": "123123"
+    },
+    {
+      "id": "769a",
+      "courseNumber": "5",
+      "customerName": "Adam",
+      "billingAdress": "GBG 03",
+      "phoneNumber": "123123123",
+      "studyPreference": "Distans",
+      "email": "Adam@gmail.com",
+      "password": "123123"
+    },
+    {
+      "id": "ffd2",
+      "courseNumber": "1",
+      "customerName": "Mich",
+      "billingAdress": "Gust",
+      "phoneNumber": "123123123",
+      "studyPreference": "klassrum",
+      "email": "mich.gust@gmail.com",
+      "password": "123123"
+    }
+  ]
+}
