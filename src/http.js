@@ -73,4 +73,19 @@ async function fetchStudents() {
   }
 }
 
-export { fetchCourses, HttpClient, fetchStudents };
+async function fetchAdmin() {
+  try {
+    const response = await fetch('http://localhost:3000/admin ');
+
+    if (response.ok) {
+      const result = await response.json();
+      return result;
+    } else {
+      console.log(response.status);
+    }
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+export { fetchCourses, HttpClient, fetchStudents, fetchAdmin };

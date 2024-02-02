@@ -5,10 +5,7 @@ import { courseSelector } from './dom.js';
 const registerAndSignup = document.querySelector('.btn');
 const form = document.querySelector('#logInForm');
 
-const initApp = async () => {
-  console.log('laddat');
-  courseSelector();
-};
+const initApp = async () => {};
 
 const addUserHandler = async (e) => {
   e.preventDefault();

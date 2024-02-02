@@ -66,13 +66,20 @@ textarea {
 
 /************* Administratör *********/
 
-#admin-container {
-  position: absolute;
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
+#admin-container {
+  position: absolute;
+  margin-top: 50px;
+}
 #student-container {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px;
 }
 
 h2 {
@@ -81,8 +88,13 @@ h2 {
 }
 
 #student-container > div {
-  display: block;
-  padding: 5px;
+  flex: 0 0 300px;
+  margin: 10px;
+}
+
+.admin-page-title {
+  display: flex;
+  position: relative;
 }
 
 .admin-form-control input,

@@ -85,61 +85,17 @@
   "customer": [
     {
       "id": "1",
-      "courseNumber": "2",
-      "customerName": "William Jansson",
-      "billingAdress": "Vemdalsgatan 51",
-      "email": "test@test.com",
-      "phoneNumber": "0701324131",
-      "password": "password"
-    },
-    {
-      "id": "4f69",
-      "courseNumber": "4",
+      "courseNumber": 4,
       "customerName": "Test Testsson",
       "billingAdress": "Testvägen 50",
       "phoneNumber": "0701231251",
+      "studyPreference": "Distans",
       "email": "Test@test123.com",
-      "password": "test"
-    },
-    {
-      "id": "d3b3",
-      "courseNumber": "1",
-      "customerName": "Mayo",
-      "billingAdress": "Gbg",
-      "phoneNumber": "123123123",
-      "studyPreference": "Distans",
-      "email": "mayo@gmail.com",
-      "password": "123123"
-    },
-    {
-      "id": "c5f5",
-      "courseNumber": "5",
-      "customerName": "Jonte",
-      "billingAdress": "Gbg 02",
-      "phoneNumber": "123123123",
-      "studyPreference": "klassrum",
-      "email": "jonte@gmail.com",
-      "password": "123123"
-    },
-    {
-      "id": "769a",
-      "courseNumber": "5",
-      "customerName": "Adam",
-      "billingAdress": "GBG 03",
-      "phoneNumber": "123123123",
-      "studyPreference": "Distans",
-      "email": "Adam@gmail.com",
-      "password": "123123"
-    },
-    {
-      "id": "ffd2",
-      "courseNumber": "1",
-      "customerName": "Mich",
-      "billingAdress": "Gust",
-      "phoneNumber": "123123123",
-      "studyPreference": "klassrum",
-      "email": "mich.gust@gmail.com",
-      "password": "123123"
+      "password": "123"
     }
-  ]
+  ],
+  "admin": {
+    "username": "admin@admin.se",
+    "password": "password"
+  }
 }

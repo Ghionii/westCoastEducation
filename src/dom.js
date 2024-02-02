@@ -1,31 +1,11 @@
-import { fetchCourses } from './http.js';
-import { fetchStudents } from './http.js';
-const coursesElement = document.querySelector('#courses');
+import { fetchCourses, fetchStudents } from './http.js';
+
 const courseSelection = document.querySelector('#courseNumber');
 const bookedCourses = document.querySelector('#student-container');
 
-const initApp = () => {
-  console.log('laddat');
-  listCourses();
+const initApp = (e) => {
+  courseSelector();
 };
-
-// Lista kurserna
-async function listCourses() {
-  const courses = await fetchCourses();
-  courses.forEach((course) => {
-    coursesElement.innerHTML += `     <div>
-    <img src="${course.image}" />
-    <h3>${course.title}</h3>
-    <div>Kurs-nummer: ${course.courseNumber}</div>
-    <div>Längd: ${course.time}</div>
-    <div>Läge: ${course.location}</div>
-    <div>Utbildningens start: ${course.startDate}</div>
-    <a href="/src/HTML/courseSignUp.html">
-    <button>Ansök</button>
-     </a>
-  </div>`;
-  });
-}
 
 async function courseSelector() {
   const courses = await fetchCourses();
